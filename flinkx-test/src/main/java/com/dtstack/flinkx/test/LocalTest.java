@@ -33,8 +33,8 @@ import com.dtstack.flinkx.es.reader.EsReader;
 import com.dtstack.flinkx.es.writer.EsWriter;
 import com.dtstack.flinkx.ftp.reader.FtpReader;
 import com.dtstack.flinkx.ftp.writer.FtpWriter;
-import com.dtstack.flinkx.gbase.reader.GbaseReader;
-import com.dtstack.flinkx.gbase.writer.GbaseWriter;
+//import com.dtstack.flinkx.gbase.reader.GbaseReader;
+//import com.dtstack.flinkx.gbase.writer.GbaseWriter;
 import com.dtstack.flinkx.hbase.reader.HbaseReader;
 import com.dtstack.flinkx.hbase.writer.HbaseWriter;
 import com.dtstack.flinkx.hdfs.reader.HdfsReader;
@@ -185,7 +185,7 @@ public class LocalTest {
             case PluginNameConstrant.MYSQLD_READER : reader = new MysqldReader(config, env); break;
             case PluginNameConstrant.MYSQL_READER : reader = new MysqlReader(config, env); break;
             case PluginNameConstrant.DB2_READER : reader = new Db2Reader(config, env); break;
-            case PluginNameConstrant.GBASE_READER : reader = new GbaseReader(config, env); break;
+//            case PluginNameConstrant.GBASE_READER : reader = new GbaseReader(config, env); break;
             case PluginNameConstrant.ES_READER : reader = new EsReader(config, env); break;
             case PluginNameConstrant.FTP_READER : reader = new FtpReader(config, env); break;
             case PluginNameConstrant.HBASE_READER : reader = new HbaseReader(config, env); break;
@@ -213,7 +213,7 @@ public class LocalTest {
             case PluginNameConstrant.ORACLE_WRITER : writer = new OracleWriter(config); break;
             case PluginNameConstrant.POSTGRESQL_WRITER : writer = new PostgresqlWriter(config); break;
             case PluginNameConstrant.DB2_WRITER : writer = new Db2Writer(config); break;
-            case PluginNameConstrant.GBASE_WRITER : writer = new GbaseWriter(config); break;
+//            case PluginNameConstrant.GBASE_WRITER : writer = new GbaseWriter(config); break;
             case PluginNameConstrant.ES_WRITER : writer = new EsWriter(config); break;
             case PluginNameConstrant.FTP_WRITER : writer = new FtpWriter(config); break;
             case PluginNameConstrant.HBASE_WRITER : writer = new HbaseWriter(config); break;

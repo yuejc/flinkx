@@ -233,18 +233,6 @@
 
         <dependency>
             <groupId>com.dtstack.flinkx</groupId>
-            <artifactId>flinkx-gbase-reader</artifactId>
-            <version>1.6</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.dtstack.flinkx</groupId>
-            <artifactId>flinkx-gbase-writer</artifactId>
-            <version>1.6</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.dtstack.flinkx</groupId>
             <artifactId>flinkx-binlog-reader</artifactId>
             <version>1.6</version>
         </dependency>
